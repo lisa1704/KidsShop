@@ -56,7 +56,7 @@ namespace KidsShop.Controllers
             {
                 using (var scope = new TransactionScope())
                 {
-                    _productRepository.UpdateProduct(product);/////////
+                    _productRepository.UpdateProduct(product);
                     scope.Complete();
                     return new OkResult();
                 }
