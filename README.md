@@ -17,4 +17,4 @@ protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
                                                         ||||||||||||||||||||||||
                                                          
 ```
-5. The arrow is where you will paste the code
+5. The arrow is where you will paste the Server name
